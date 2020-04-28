@@ -26,6 +26,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --love: #FF5758;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -3090,12 +3091,27 @@ fieldset:disabled .btn {
   background-color: #0d6efd;
   border-color: #0d6efd;
 }
+.btn-love{
+  background-color: #FF5758;
+  color: #fff;
+}
+.btn-love:hover{
+background-color:#e05555;
+color:#fff;
+}
+.btn-love:focus, .btn-love.focus {
+  color: #fff;
+  background-color: #e05555;
+  border-color: #e05554;
+  box-shadow: 0 0 0 0.2rem rgba(49, 132, 253, 0.5);
+}
 
 .btn-primary:hover {
   color: #fff;
   background-color: #025ce2;
   border-color: #0257d5;
 }
+
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
